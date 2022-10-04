@@ -32,6 +32,15 @@ program will also ask you if you want to save key word in to a file.
 
 For all functions to work correctly you will need a key word that can be stored in `key.properties` file or manually on piece of paper.
 
+## How to use this app
+There is 4 files: input.txt, encryption.data, output.txt and key.properties. Files are generated automaticly.
+First of all you need to paste some text or data in `input.txt`, after that program will ask you for key word for example `crocodile.` Key word can be saved in `key.properties` file and store in somekind of storage. 
+Next program will ask to select encrypting or decrypting. Make sure that files aren't empty. Once selected, the program will start encryption and decryption based on your selection.
+
+If you selected encryption output will be in `encryption.data` file but if you seleced decryption output will be in `output.txt` file.
+
+For all functions you need key word that can be stored in `key.properties` file or manually on piece of paper.
+
 ## What is XOR
 XOR is one of the best encryption that use special key word. The XOR encryption algorithm is an example of symmetric encryption where the same key is used to both encrypt and decrypt a message.
 
